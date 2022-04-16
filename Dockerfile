@@ -3,9 +3,6 @@ FROM docker.io/ubuntu
 LABEL "com.example.vendor"="ACME Incorporated"
 LABEL com.example.label-with-value="foo"
 LABEL version="1.0"
-LABEL description="This text illustrates \
-that label-values can span multiple lines."
-
 MAINTAINER abcl@simpli.com
 
 
