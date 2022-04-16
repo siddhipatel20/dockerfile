@@ -7,7 +7,6 @@ MAINTAINER abcl@simpli.com
 
 
 
-COPY myfile.txt /root/myfile.txt
 
 ADD https://www.docker.com/wp-content/uploads/2022/03/horizontal-logo-monochromatic-white.png /root/logo.png
 RUN apt update -y; echo "hello there" > /root/simplilearn.txt; apt install iputils-ping -y
