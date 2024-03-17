@@ -1,5 +1,5 @@
 FROM alpine:latest
-CMD echo "hello world!"
+CMD echo "Hello,World!"
 
 #LABEL "com.example.vendor"="ACME Incorporated"
 #LABEL com.example.label-with-value="foo"
